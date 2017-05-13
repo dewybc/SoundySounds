@@ -13,6 +13,7 @@
 		9B63D3AC1EC7836D00D2FEBA /* Soundy_Sounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B63D3AA1EC7836D00D2FEBA /* Soundy_Sounds.xcdatamodeld */; };
 		9B63D3AE1EC7836D00D2FEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B63D3AD1EC7836D00D2FEBA /* Assets.xcassets */; };
 		9B63D3B11EC7836D00D2FEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63D3AF1EC7836D00D2FEBA /* LaunchScreen.storyboard */; };
+		9B63D3B91EC786A700D2FEBA /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63D3B81EC786A700D2FEBA /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B63D3AD1EC7836D00D2FEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B63D3B01EC7836D00D2FEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B63D3B21EC7836D00D2FEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B63D3B81EC786A700D2FEBA /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				9B63D3A31EC7836D00D2FEBA /* AppDelegate.swift */,
 				9B63D3A51EC7836D00D2FEBA /* ViewController.swift */,
+				9B63D3B81EC786A700D2FEBA /* SoundViewController.swift */,
 				9B63D3A71EC7836D00D2FEBA /* Main.storyboard */,
 				9B63D3AD1EC7836D00D2FEBA /* Assets.xcassets */,
 				9B63D3AF1EC7836D00D2FEBA /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B63D3B91EC786A700D2FEBA /* SoundViewController.swift in Sources */,
 				9B63D3AC1EC7836D00D2FEBA /* Soundy_Sounds.xcdatamodeld in Sources */,
 				9B63D3A61EC7836D00D2FEBA /* ViewController.swift in Sources */,
 				9B63D3A41EC7836D00D2FEBA /* AppDelegate.swift in Sources */,
