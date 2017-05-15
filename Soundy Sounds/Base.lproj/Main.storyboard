@@ -42,6 +42,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="HwX-Rw-Hnt" id="tXx-z0-2X5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,18 +81,21 @@
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="0.039973332216942992" green="1" blue="0.035224379006532192" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="0.47760990800172054" green="0.51267546936705388" blue="0.52942981020942415" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playTapped:" destination="CaS-qH-Vvl" eventType="touchUpInside" id="J3G-P0-Dve"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sound Name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pHb-V4-m7f">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sound Name" textAlignment="center" minimumFontSize="17" disabledBackground="s" translatesAutoresizingMaskIntoConstraints="NO" id="pHb-V4-m7f">
                                 <rect key="frame" x="88" y="184" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="GvD-uE-QIz"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0l-KA-tje">
                                 <rect key="frame" x="173" y="234" width="30" height="30"/>
@@ -112,6 +118,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="C0l-KA-tje" id="EkO-FP-ZVu"/>
+                        <outlet property="playButton" destination="ryH-qE-dYn" id="OhG-3R-YHc"/>
                         <outlet property="recordButton" destination="t2h-bq-KDb" id="sDf-yL-zlY"/>
                         <outlet property="textField" destination="pHb-V4-m7f" id="Oza-JS-RxS"/>
                     </connections>
@@ -139,4 +147,7 @@
             <point key="canvasLocation" x="168.80000000000001" y="-560.86956521739137"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="s" width="16" height="16"/>
+    </resources>
 </document>
